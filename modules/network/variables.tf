@@ -8,5 +8,4 @@ variable "subnet_cidr" {
 
 variable "availability_zones" {
   description = "The availability zones for the public subnets"
-  type        = list(string)
 }
